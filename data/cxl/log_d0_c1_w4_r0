@@ -1,0 +1,29 @@
+Intel(R) Memory Latency Checker - v3.10
+Command line parameters: --loaded_latency -j4 -k1-1 -W4 
+
+Using buffer size of 100.000MiB/thread for reads and an additional 100.000MiB/thread for writes
+
+Measuring Loaded Latencies for the system
+Using all the threads from each core if Hyper-threading is enabled
+Inject	Latency	Bandwidth
+Delay	(ns)	MB/sec
+==========================
+ 00000	279.91	  15810.8
+ 00002	279.68	  15938.3
+ 00008	280.91	  16604.4
+ 00015	283.33	  19052.3
+ 00050	278.99	  16012.8
+ 00100	270.37	   9651.0
+ 00200	260.54	   4297.1
+ 00300	257.43	   3157.0
+ 00400	255.61	   2501.9
+ 00500	253.64	   2084.1
+ 00700	251.52	   1591.6
+ 01000	251.26	   1204.4
+ 01300	250.58	    992.5
+ 01700	249.51	    824.5
+ 02500	247.18	    647.7
+ 03500	245.97	    539.2
+ 05000	245.36	    456.6
+ 09000	244.40	    370.9
+ 20000	244.07	    311.5
